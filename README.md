@@ -1,3 +1,3 @@
 # iw-lib
 
-<img src='iw-lib.excalcidraw'>
+<img src='iw-lib.excalidraw'>
