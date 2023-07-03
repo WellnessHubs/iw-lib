@@ -1,7 +1,7 @@
 <!doctype>
 <html>
     <head>
-        <title>IW Kitchen Sink</title>
+        <title>IW Kitchen Sink -- soundbath</title>
         <link rel="stylesheet" href="iw.css">
         <script src="iw.js"></script>
     </head>
@@ -10,7 +10,15 @@
     </body>
 <script>
     IW.init();
-    IW.camera.init();
+    IW.scene.init("2d");
+    var sphere = IW.scene.add("sphere", {style:{}});
+    var sound = IW.sound.init();
+    sound.load("soundbath.mp3");
+    sound.play();
+    
+
+
+
 
 </script>
 </html>
